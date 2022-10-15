@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(108, 108, 108);
+}
+
+.main {
+    width: 450px;
+    height: 697px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    border-radius: 20px;
+}
+
+.maintext1 {
+    position: absolute;
+    width: 450px;
+    height: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+}
+
+.desc1 {
+    position: absolute;
+    top: 290px;
+    left: 48px;
+    width: 354px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #717FA6;
+}
+
+.plantcont {
+    width: 354px;
+    height: 98px;
+}
+
+.musicicon {
+    position: absolute;
+    top: 450px;
+    left: 60px;
+}
+
+.text1 {
+    position: absolute;
+    top: 430px;
+    left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+    z-index: 10;
+}
+
+.price{
+    position: absolute;
+    top: 460px;
+    left: 120px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.change {
+    width: 80px;
+    height: 23px;
+    position: absolute;
+    top: 465px;
+    left: 300px;
+    border-radius: 8px;
+    border: 0px solid rgb(47, 47, 255);
+    background-color: rgb(47, 47, 255);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s;
+}
+.change:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #4576ff;
+}
+
+.ordering {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    top:550px;
+    left: 50px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(47, 47, 255);
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s;
+}
+.ordering:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #4576ff;
+}
+
+.cancelorder {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top:625px;
+    left: 170px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(47, 47, 255);
+    color: white;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s;
+}
+
+.cancelorder:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #4576ff;
+}
