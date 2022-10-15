@@ -133,3 +133,11 @@ body {
     transform: scale(1.2);
     background-color: #4576ff;
 }
+
+@media only screen and(max-width: 500px) {
+    .main {
+        
+        width: 90%;
+        height: 90%;
+    }
+}
